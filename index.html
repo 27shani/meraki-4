@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Meraki 2026 | Pitch. Connect. Scale.</title>
+<meta name="description" content="Meraki 2026 — FIIB's flagship international business plan competition for early-stage ideas and young ventures. 23–25 October 2026, FIIB, New Delhi.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="assets/meraki-logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Urbanist:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image" href="assets/images/apply.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="assets/images/hero-bg.jpg" fetchpriority="high">
+
+<link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+<!-- ===================================================== -->
+<!-- LOADER                                                 -->
+<!-- ===================================================== -->
+<div class="loader" id="loader">
+  <div class="loader__mark" id="loaderMark">
+    <img src="assets/meraki-full-logo.png" alt="Meraki" class="loader__logo" id="loaderLogo">
+  </div>
+  <div class="loader__wipe loader__wipe--red" id="wipeRed"></div>
+  <div class="loader__wipe loader__wipe--black" id="wipeBlack"></div>
+</div>
+
+<!-- ===================================================== -->
+<!-- SCROLL PROGRESS                                        -->
+<!-- ===================================================== -->
+<div class="scroll-progress" id="scrollProgress">
+  <div class="scroll-progress__track">
+    <div class="scroll-progress__bar" id="scrollProgressBar"></div>
+  </div>
+  <span class="scroll-progress__pct" id="scrollProgressPct">00</span>
+</div>
+
+<main id="main">
+
+  <!-- ===================================================== -->
+  <!-- 1. HERO                                                -->
+  <!-- ===================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="hero__topbar">
+      <p class="hero__lede">Your idea deserves more than a <span class="i">classroom pitch.</span></p>
+      <nav class="hero__nav" aria-label="Primary">
+        <a href="#contact" class="hero__nav-link">Apply</a>
+        <a href="#gallery" class="hero__nav-link">Investors</a>
+        <a href="#gallery" class="hero__nav-link">Past Winners</a>
+        <span class="hero__brand-group">
+          <span class="hero__brand">
+            <img src="assets/meraki-logo.png" alt="Meraki" class="hero__brand-logo">
+            <span class="s">2026</span>
+          </span>
+          <span class="hero__nav-fiib">FIIB</span>
+        </span>
+      </nav>
+    </div>
+
+    <div class="hero__title-wrap" id="heroTitleWrap">
+      <h1 class="hero__title" id="heroTitle">
+        <span>Pitch.</span>
+        <span class="i grad">Connect.</span>
+        <span>Scale.</span>
+      </h1>
+      <p class="hero__dates">23rd <span class="dash">—</span> 25th October 2026</p>
+      <a href="#register" class="btn btn--coral hero__register-btn">Register for Meraki</a>
+    </div>
+
+    <div class="hero__bottombar">
+      <div class="hero__tag">For undergraduate founders</div>
+    </div>
+
+    <div class="hero__expand" id="heroExpand" data-lenis-prevent>
+      <img src="assets/images/hero-bg.jpg" alt="" class="hero__expand-bg">
+      <div class="hero__expand-shade" aria-hidden="true"></div>
+      <div class="hero__expand-tint" aria-hidden="true"></div>
+      <div class="hero__expand-content" id="heroExpandContent">
+        <h3 class="hero__expand-title"><span>Your idea. Your stage.</span><br><span class="grad">Your shot.</span></h3>
+        <div class="hero__expand-row">
+          <div class="hero__expand-copy">
+            <p>FIIB has been shaping future-ready business leaders since 1995, with a legacy rooted in experiential learning, innovation and real-world business thinking. This belief gave rise to <strong>Meraki</strong> in 2012 — a platform to get challenged, meet experts, make connections and win recognition. It brings together ambitious students, mentors, investors and industry leaders to challenge ideas and turn potential into action.</p>
+            <p>Meraki 2026 is a three-phase entrepreneurship pitch competition for undergraduate and postgraduate students, featuring SDG/Social Impact, Women Founders, and AI/Tech tracks. With <strong>₹5 lakh+</strong> in prizes, mentorship and incubation opportunities, Meraki is where ideas get tested, sharpened and taken further.</p>
+          </div>
+          <div class="hero__expand-logos" aria-label="Recognitions">
+            <div class="hero__expand-logo"><img src="assets/recognition/india-education-summit.png" alt="India Education Summit 2026"></div>
+            <div class="hero__expand-logo"><img src="assets/recognition/etnow-business-conclave.png" alt="ET Now Business Conclave & Awards 2026"></div>
+            <div class="hero__expand-logo"><img src="assets/recognition/digii100-summit.png" alt="Digii 100 Summit '25"></div>
+            <div class="hero__expand-logo"><img src="assets/recognition/prme-champion.png" alt="PRME Champion 2026–2027"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 2. ABOUT                                               -->
+  <!-- ===================================================== -->
+  <section class="about" id="about">
+    <div class="about__heading" id="aboutHeading">
+      <div>Why bring your</div>
+      <div><span class="i grad">A-Game?</span></div>
+    </div>
+
+    <div class="about__boxes-outer">
+      <div class="about__boxes" id="aboutBoxes">
+        <div class="about__box" data-box>
+          <div class="about__box-inner">
+            <div>
+              <span class="about__box-step">/ Build 01</span>
+              <h3 class="about__box-title">Sharpen Your Pitch</h3>
+            </div>
+            <p class="about__box-desc">Turn your idea into a clear, compelling business case with expert feedback and real-world perspective.</p>
+          </div>
+        </div>
+        <div class="about__box" data-box>
+          <div class="about__box-inner">
+            <div>
+              <span class="about__box-step">/ Connect 02</span>
+              <h3 class="about__box-title">Build Your Network</h3>
+            </div>
+            <p class="about__box-desc">Connect with mentors, investors, industry leaders and ambitious peers who can take your idea further.</p>
+          </div>
+        </div>
+        <div class="about__box" data-box>
+          <div class="about__box-inner">
+            <div>
+              <span class="about__box-step">/ Grow 03</span>
+              <h3 class="about__box-title">Earn Real Recognition</h3>
+            </div>
+            <p class="about__box-desc">Put your idea on a bigger stage, compete for prizes and gain visibility among the entrepreneurial ecosystem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__image" id="aboutImage">
+      <img src="assets/images/about-hero.jpg" alt="Meraki hackathon event" loading="lazy">
+      <div class="about__image-shade" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 2b. IMPACT STATS STRIP                                 -->
+  <!-- ===================================================== -->
+  <section class="stats" id="stats">
+    <div class="stats__inner">
+      <div class="stats__item">
+        <p class="stats__label">Years of Impact</p>
+        <p class="stats__value">15+</p>
+      </div>
+      <div class="stats__item">
+        <p class="stats__label">Ventures Recognised</p>
+        <p class="stats__value">50+</p>
+      </div>
+      <div class="stats__item">
+        <p class="stats__label">Fellowships Granted</p>
+        <p class="stats__value">₹50L+</p>
+      </div>
+      <div class="stats__item">
+        <p class="stats__label">UNSDG-Aligned Business Models Evaluated</p>
+        <p class="stats__value">11+</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 3. HOW IT WORKS                                        -->
+  <!-- ===================================================== -->
+  <section class="how" id="how">
+
+  <svg
+    class="how__ribbon"
+    id="howRibbon"
+    viewBox="0 0 1400 1400"
+    preserveAspectRatio="xMidYMid slice"
+    aria-hidden="true"
+  >
+    <defs>
+      <linearGradient
+        id="ribbonGradient"
+        x1="0%"
+        y1="0%"
+        x2="100%"
+        y2="100%"
+      >
+        <stop offset="0%" stop-color="#FB575F"/>
+        <stop offset="100%" stop-color="#8F53FC"/>
+      </linearGradient>
+    </defs>
+
+    <path
+      class="fluid-line"
+      id="ribbonPath"
+      d="
+        M -80,0
+        C 300,-20 600,150 540,400
+        C 490,650 0,655 300,1050
+        C 600,1385 650,1250 850,1200
+        C 1100,1150 1550,1180 1850,1140
+      "
+    />
+  </svg>
+    <div class="how__counter" id="howCounter">(01)</div>
+
+    <div class="how__list-outer">
+      <div class="how__list" id="howList">
+        <div class="how__step is-active" data-step="0">
+          <h2 class="how__step-title">Apply</h2>
+        </div>
+        <div class="how__step" data-step="1">
+          <h2 class="how__step-title">Get Evaluated</h2>
+        </div>
+        <div class="how__step" data-step="2">
+          <h2 class="how__step-title">Make the Cut</h2>
+        </div>
+        <div class="how__step" data-step="3">
+          <h2 class="how__step-title">Refine Your Pitch</h2>
+        </div>
+        <div class="how__step" data-step="4">
+          <h2 class="how__step-title">Pitch at Meraki</h2>
+        </div>
+        <div class="how__step" data-step="5">
+          <h2 class="how__step-title">Win</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="how__panel">
+      <div class="how__panel-top">
+        <span id="howStepLabel">Step 01</span>
+        <span></span>
+      </div>
+
+      <div class="how__card" id="howCard">
+        <div class="how__card-img is-active" data-img="0"><img src="assets/images/apply.jpg" alt="Apply"></div>
+        <div class="how__card-img" data-img="1"><img src="assets/images/get-evaluated.jpg" alt="Get Evaluated"></div>
+        <div class="how__card-img" data-img="2"><img src="assets/images/make-the-cut.jpg" alt="Make the Cut"></div>
+        <div class="how__card-img" data-img="3"><img src="assets/images/refine-your-pitch.jpg" alt="Refine Your Pitch"></div>
+        <div class="how__card-img" data-img="4"><img src="assets/images/pitch-at-meraki.jpg" alt="Pitch at Meraki"></div>
+        <div class="how__card-img" data-img="5"><img src="assets/images/win.jpg" alt="Win"></div>
+
+        <div class="how__cover" id="howCover">
+          <span id="howCoverTitle">Apply</span>
+        </div>
+
+        <div class="how__cursor" id="howCursor"><span>Next Stage</span></div>
+      </div>
+
+      <div class="how__desc-outer">
+        <p class="how__desc is-active" data-desc="0">Share your idea, the problem it solves, and your vision.</p>
+        <p class="how__desc" data-desc="1">Experts assess your idea's strength, market potential, and execution readiness.</p>
+        <p class="how__desc" data-desc="2">Strongest submissions advance to the next stage of Meraki competition.</p>
+        <p class="how__desc" data-desc="3">Refine your idea through expert feedback and focused mentorship sessions.</p>
+        <p class="how__desc" data-desc="4">Pitch your idea at FIIB before experts, investors, and innovators.</p>
+        <p class="how__desc" data-desc="5">Compete for prizes, build connections, and take your idea forward.</p>
+      </div>
+
+      <div class="how__process-label">Process</div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 3b. WALL OF FAME                                       -->
+  <!-- ===================================================== -->
+  <section class="fame" id="fame">
+    <div class="fame__head">
+      <p class="fame__eyebrow"><span class="fame__eyebrow-a">13 years</span> and <span class="fame__eyebrow-b">30L+ investment</span> later, here are some of our highlight winners</p>
+      <h2 class="fame__title">Wall of <span class="i grad">Fame</span></h2>
+    </div>
+
+    <div class="fame__panel">
+      <div class="fame__slider-row">
+        <button type="button" class="fame__arrow" id="fameArrowPrev" aria-label="Previous winner">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="fame__slider" id="fameSlider"></div>
+        <button type="button" class="fame__arrow" id="fameArrowNext" aria-label="Next winner">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 4. FLOATING GALLERY (PAST INVESTORS)                   -->
+  <!-- ===================================================== -->
+  <section class="gallery" id="gallery">
+    <div class="gallery__text" id="galleryText">
+      <p class="gallery__intro">Forward-looking organizations, investors, and institutions who fuel your entrepreneurial zest.</p>
+      <h2>Past <span class="i grad">investors</span></h2>
+    </div>
+
+    <div class="gallery__tracks">
+      <div class="gallery__track gallery__track--left" id="trackOne">
+        <div class="gallery__track-group">
+          <div class="gallery__card" data-card><img src="assets/logos/aricent.png" alt="Aricent"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/mayfield.png" alt="Mayfield"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/network18.png" alt="Network18"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/venture-catalyst.png" alt="Venture Catalyst"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/chalo.png" alt="Chalo"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/dozee.png" alt="Dozee"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/firtree.png" alt="Fir Tree Partners"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/lightspeed.png" alt="Lightspeed"></div>
+        </div>
+        <div class="gallery__track-group" aria-hidden="true">
+          <div class="gallery__card" data-card><img src="assets/logos/aricent.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/mayfield.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/network18.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/venture-catalyst.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/chalo.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/dozee.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/firtree.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/lightspeed.png" alt="" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="gallery__track gallery__track--right" id="trackTwo">
+        <div class="gallery__track-group">
+          <div class="gallery__card" data-card><img src="assets/logos/herculas.png" alt="Herculas"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/icreate.png" alt="iCreate"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/magicpin.png" alt="MagicPin"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/motorola.png" alt="Motorola"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/social-business-creation.png" alt="Social Business Creation"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/socialcops.png" alt="SocialCops"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/waterbridge.png" alt="WaterBridge Venture"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/deal4loans.png" alt="Deal4Loans"></div>
+        </div>
+        <div class="gallery__track-group" aria-hidden="true">
+          <div class="gallery__card" data-card><img src="assets/logos/herculas.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/icreate.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/magicpin.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/motorola.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/social-business-creation.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/socialcops.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/waterbridge.png" alt="" aria-hidden="true"></div>
+          <div class="gallery__card" data-card><img src="assets/logos/deal4loans.png" alt="" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 4b. VIDEOS — INDUSTRY MAESTROS                         -->
+  <!-- ===================================================== -->
+  <section class="videos" id="videos">
+    <div class="videos__inner">
+      <h2 class="videos__title">Industry <span class="i grad">Maestros</span> at FIIB</h2>
+      <div class="videos__grid">
+        <div class="videos__item">
+          <iframe src="https://www.youtube.com/embed/xDJrWxSBQMg" title="Meraki — Industry Maestros video 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="videos__item">
+          <iframe src="https://www.youtube.com/embed/QPI6-6EnLX0" title="Meraki — Industry Maestros video 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="videos__item">
+          <iframe src="https://www.youtube.com/embed/8ECTD6sEXb4" title="Meraki — Industry Maestros video 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 5. TRACKS                                              -->
+  <!-- ===================================================== -->
+  <section class="tracks" id="tracks">
+    <div class="tracks__content" id="tracksContent">
+      <div class="tracks__title" id="tracksTitle">
+        <h2>Two tracks. <span class="i grad">One stage.</span></h2>
+      </div>
+
+      <div class="tracks__wrapper-outer">
+        <div class="tracks__wrapper" id="tracksWrapper">
+          <div class="tracks__card" data-track>
+            <div class="tracks__card-inner">
+              <div class="tracks__card-top">
+                <span class="tracks__num">Track 01</span>
+                <span class="tracks__num-label i">01</span>
+              </div>
+              <div class="tracks__card-body">
+                <h3 class="i">Inclusive Innovation</h3>
+                <p class="tracks__subtitle">Led by or designed for underrepresented communities</p>
+                <p class="tracks__desc">Whether you're solving for DEI, inclusion, accessibility, gender equity or social barriers, bring an idea that makes business more inclusive.</p>
+              </div>
+              <div class="tracks__card-footer">
+                <span>Who can apply:</span>
+                <p>
+                    • Women entrepreneurs<br>
+                    • Persons with disabilities<br>
+                    • LGBTQAI+ founders<br>
+                    • Founders from underrepresented backgrounds
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="tracks__card" data-track>
+            <div class="tracks__card-inner">
+              <div class="tracks__card-top">
+                <span class="tracks__num">Track 02</span>
+                <span class="tracks__num-label i">02</span>
+              </div>
+              <div class="tracks__card-body">
+                <h3 class="i">Open Innovation</h3>
+                <p class="tracks__subtitle">Scalability and meaningful impact</p>
+                <p class="tracks__desc">From climate action and education to healthcare, technology and beyond, bring an innovative solution with potential of contributing to one or more Sustainable Development Goals (SDGs).</p>
+              </div>
+              <div class="tracks__card-footer">
+                <span>Who can apply:</span>
+                <p>
+                    • Undergraduate students<br>
+                    • Individual applicants/founders<br>
+                    • Teams of 1–5 members<br>
+                    • Early-stage ideas or young ventures
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracks__prizes" id="tracksPrizes">
+        <h3 class="i">Prize Money <span class="tracks__prizes-kicker">per track</span></h3>
+        <div class="tracks__prizes-grid">
+          <div class="tracks__prize" data-prize>
+            <h4 class="i">Winner</h4>
+            <p class="tracks__prize-amt">₹150,000 | $1,800</p>
+            <p class="tracks__prize-note">(Each Track)</p>
+          </div>
+          <div class="tracks__prize" data-prize>
+            <h4 class="i">1st Runner up</h4>
+            <p class="tracks__prize-amt">₹100,000 | $1,200</p>
+            <p class="tracks__prize-note">(Each Track)</p>
+          </div>
+          <div class="tracks__prize" data-prize>
+            <h4 class="i">2nd Runner up</h4>
+            <p class="tracks__prize-amt">₹50,000 | $600</p>
+            <p class="tracks__prize-note">(Each Track)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 6. SKILLS / TIMELINE (SAVE THE DATES)                  -->
+  <!-- ===================================================== -->
+  <section class="timeline" id="timeline">
+    <div class="timeline__grid">
+      <div class="timeline__left">
+        <h2>Save the <span class="i grad">dates.</span></h2>
+        <a href="#register" class="timeline__cta" data-char-hover>Register now +</a>
+      </div>
+
+      <div class="timeline__right-outer">
+        <div class="timeline__right" id="timelineRight">
+          <div class="timeline__event is-open" data-event="0">
+            <button class="timeline__event-head" data-toggle>
+              <span class="timeline__event-title-row">
+                <span class="timeline__event-title">Applications Open</span>
+                <span class="timeline__event-date">[ Date to be confirmed ]</span>
+              </span>
+              <span class="timeline__event-icon">—</span>
+            </button>
+            <div class="timeline__event-body" data-body style="height:auto;opacity:1">
+              <p>Submit your idea and put your venture in the running.</p>
+            </div>
+          </div>
+          <div class="timeline__event" data-event="1">
+            <button class="timeline__event-head" data-toggle>
+              <span class="timeline__event-title-row">
+                <span class="timeline__event-title">Applications Close</span>
+                <span class="timeline__event-date">[ Application deadline ]</span>
+              </span>
+              <span class="timeline__event-icon">+</span>
+            </button>
+            <div class="timeline__event-body" data-body style="height:0;opacity:0">
+              <p>Last call to get your pitch in.</p>
+            </div>
+          </div>
+          <div class="timeline__event" data-event="2">
+            <button class="timeline__event-head" data-toggle>
+              <span class="timeline__event-title-row">
+                <span class="timeline__event-title">Shortlist Announcement</span>
+                <span class="timeline__event-date">[ Date to be confirmed ]</span>
+              </span>
+              <span class="timeline__event-icon">+</span>
+            </button>
+            <div class="timeline__event-body" data-body style="height:0;opacity:0">
+              <p>The strongest ideas move to the next stage.</p>
+            </div>
+          </div>
+          <div class="timeline__event" data-event="3">
+            <button class="timeline__event-head" data-toggle>
+              <span class="timeline__event-title-row">
+                <span class="timeline__event-title">Meraki 2026</span>
+                <span class="timeline__event-date">23–25 October 2026</span>
+              </span>
+              <span class="timeline__event-icon">+</span>
+            </button>
+            <div class="timeline__event-body" data-body style="height:0;opacity:0">
+              <p>Three days. Big ideas. Serious pitches. New connections.</p>
+            </div>
+          </div>
+          <div class="timeline__event" data-event="4">
+            <button class="timeline__event-head" data-toggle>
+              <span class="timeline__event-title-row">
+                <span class="timeline__event-title">Venue</span>
+                <span class="timeline__event-date">New Delhi</span>
+              </span>
+              <span class="timeline__event-icon">+</span>
+            </button>
+            <div class="timeline__event-body" data-body style="height:0;opacity:0">
+              <p>Fortune Institute of International Business</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 6b. MARQUEE STRIP                                      -->
+  <!-- ===================================================== -->
+  <section class="strip" id="strip" aria-hidden="true">
+    <div class="strip__track" id="stripTrack">
+      <div class="strip__group">
+        <span class="strip__item">Meraki 2026</span><span class="strip__star">*</span>
+        <span class="strip__item">Pitch Connect Scale</span><span class="strip__star">*</span>
+        <span class="strip__item">Apply Now</span><span class="strip__star">*</span>
+        <span class="strip__item">Meraki 2026</span><span class="strip__star">*</span>
+        <span class="strip__item">Pitch Connect Scale</span><span class="strip__star">*</span>
+        <span class="strip__item">Apply Now</span><span class="strip__star">*</span>
+      </div>
+      <div class="strip__group">
+        <span class="strip__item">Meraki 2026</span><span class="strip__star">*</span>
+        <span class="strip__item">Pitch Connect Scale</span><span class="strip__star">*</span>
+        <span class="strip__item">Apply Now</span><span class="strip__star">*</span>
+        <span class="strip__item">Meraki 2026</span><span class="strip__star">*</span>
+        <span class="strip__item">Pitch Connect Scale</span><span class="strip__star">*</span>
+        <span class="strip__item">Apply Now</span><span class="strip__star">*</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 7. AWARDS / FAQ                                        -->
+  <!-- ===================================================== -->
+  <section class="faq" id="faq">
+    <div class="faq__cursor" id="faqCursor" aria-hidden="true"></div>
+
+    <div class="faq__inner">
+      <h2>Quick <span class="i grad">answers.</span></h2>
+
+      <div class="faq__list">
+        <div class="faq__row is-open" data-faq="0">
+          <div class="faq__row-bg"></div>
+          <button class="faq__row-head" data-toggle>
+            <span class="faq__q">Who can participate in Meraki 2026?</span>
+            <span class="faq__icon">—</span>
+          </button>
+          <div class="faq__row-body">
+            <div class="faq__row-body-inner">
+              <p>Meraki is open to participants worldwide. Teams can have 1–5 members, with at least one currently enrolled student or degree-seeking member. The competition welcomes early-stage ideas and young ventures with clear revenue potential, scalability and credible, defensible business models that can attract investors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__row" data-faq="1">
+          <div class="faq__row-bg"></div>
+          <button class="faq__row-head" data-toggle>
+            <span class="faq__q">Do I need to have an existing startup?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__row-body">
+            <div class="faq__row-body-inner">
+              <p>No. Meraki welcomes both early-stage ideas and young ventures seeking validation, growth or a platform to take their concept forward.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__row" data-faq="2">
+          <div class="faq__row-bg"></div>
+          <button class="faq__row-head" data-toggle>
+            <span class="faq__q">Can students from outside India apply?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__row-body">
+            <div class="faq__row-body-inner">
+              <p>Yes. Meraki is designed as an international platform and welcomes eligible undergraduate students from across the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__row" data-faq="3">
+          <div class="faq__row-bg"></div>
+          <button class="faq__row-head" data-toggle>
+            <span class="faq__q">What will the judges look for?</span>
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__row-body">
+            <div class="faq__row-body-inner">
+              <p>Your idea matters, but so does your thinking. Evaluation focuses on factors such as business clarity, market understanding, execution readiness, scalability and real-world impact.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== -->
+  <!-- 8. CONTACT                                             -->
+  <!-- ===================================================== -->
+  <section class="contact" id="contact">
+    <div class="contact__abstract" aria-hidden="true"></div>
+    <div class="contact__content" id="contactContent">
+      <div class="contact__copy">
+        <p class="contact__quote">Your idea has entered<br>the chat.<br><span class="i grad">Now give it a stage.</span></p>
+        <a href="#register" class="btn btn--coral">Apply Now</a>
+      </div>
+
+      <div class="contact__timer-wrap">
+        <div class="contact__countdown" id="contactCountdown" aria-label="Countdown to Meraki 2026">
+          <div class="contact__count-card">
+            <span class="contact__count-value" id="contactDays">68</span>
+            <span class="contact__count-label">Days</span>
+          </div>
+          <div class="contact__count-card">
+            <span class="contact__count-value" id="contactHours">02</span>
+            <span class="contact__count-label">Hours</span>
+          </div>
+          <div class="contact__count-card">
+            <span class="contact__count-value" id="contactMinutes">27</span>
+            <span class="contact__count-label">Minutes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================================================== -->
+<!-- FOOTER                                                 -->
+<!-- ===================================================== -->
+<footer class="site-footer" id="siteFooter">
+  <div class="site-footer__top">
+    <div class="site-footer__contact">
+      <span class="site-footer__contact-title grad">Get in Touch</span>
+      <a href="mailto:meraki2026@fiib.edu.in">meraki2026@fiib.edu.in</a>
+      <div class="site-footer__phones">
+        <a href="tel:+917060366392">+91 7060366392</a>
+        <a href="tel:+919958617024">+91 9958617024</a>
+        <a href="tel:+919910470427">+91 9910470427</a>
+      </div>
+    </div>
+
+    <div class="site-footer__right-note">
+      <img src="assets/fiib-logo.png" alt="FIIB — Fortune Institute of International Business" class="site-footer__fiib-logo">
+      <span class="site-footer__right-label">Powered by FIIB</span>
+      <span class="site-footer__address">Fortune Institute of International Business, Plot No. 5, Rao Tularam Marg, Basant Gaon, Vasant Vihar, New Delhi, Delhi 110057</span>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <div class="site-footer__brand">
+      <div class="site-footer__brand-mark">
+        <img src="assets/meraki-full-logo.png" alt="Meraki" class="site-footer__brand-logo">
+      </div>
+    </div>
+
+    <a href="#" class="site-footer__instagram" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
+</footer>
+
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
